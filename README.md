@@ -6,7 +6,6 @@
   - Definition
     - A software design pattern that restricts the instantiation of a class to a singular instance.
 - How to Implement
-- Use cases
 - Pros
   - The pattern is useful when exactly one object is needed to coordinate actions across a system.
 - Cons
