@@ -10,4 +10,6 @@
 - Pros
   - The pattern is useful when exactly one object is needed to coordinate actions across a system.
 - Cons
+- Work Cited
+  - https://en.wikipedia.org/wiki/Singleton_pattern  
 </details>
