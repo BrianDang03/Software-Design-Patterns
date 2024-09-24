@@ -2,6 +2,7 @@
 
 ## Singleton
 
+### Definition
 ### How to Implement
 ### Use cases
 ### Pros
