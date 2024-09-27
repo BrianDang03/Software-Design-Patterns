@@ -109,8 +109,8 @@ int main()
   <summary>Output</summary>
 
 ```cpp    
-0
-42
+Value = 0
+Value = 42
 ```
 
 </details>
