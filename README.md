@@ -16,7 +16,7 @@
   - The Singleton class is only created when it is needed thus delays resource usage until necessary.
 - Cons
   -  Due to the global point access nature of the Singleton class, other classes can become too dependent on the Singleton thus making the system harder to refactor and scale.
-  -  Violates the Single Responsibility Principle (SRP) becasue the Singleton controls both the instance creation and its functions/behaviors.
+  -  Violates the Single Responsibility Principle (SRP) because the Singleton controls both the instance creation and its functions/behaviors.
   -  If a different class and function changes the state of the Singleton, other classes that rely on the Singleton may change.
   -  Future design decisions will be effect due to the private constructor. This makes the Singleton impossible to inherit and polymorth from thus harder to scale and adapt to different contexts of the code base.
 - How to Implement
