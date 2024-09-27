@@ -15,10 +15,8 @@
     - Implementations of the singleton pattern ensure that only one instance of the singleton class ever exists and typically provide global access to that instance.
     - Declaring all constructors of the class to be private, which prevents it from being instantiated by other objects
     - Providing a static method that returns a reference to the instance
-    - The instance is usually stored as a private static variable; the instance is created when the variable is initialized, at some point before when the static method is first called.
-
-[Singleton Implementation](Design-Pattern-Code/Singleton Implementation.md)
-
+    - The instance is usually stored as a private static variable; the instance is created when the variable is initialized, at some point before when the static method is first called
+    - [Code](https://github.com/BrianDang03/Software-Design-Patterns/blob/main/Design-Pattern-Code/Singleton%20Implementation.md)
 - Work Cited
   1. https://en.wikipedia.org/wiki/Singleton_pattern  
 </details>
