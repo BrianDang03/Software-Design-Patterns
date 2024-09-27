@@ -102,3 +102,15 @@ int main()
 ```
 
 </details>
+
+</details>
+
+<details>
+  <summary>Output</summary>
+
+```cpp    
+0
+42
+```
+
+</details>
