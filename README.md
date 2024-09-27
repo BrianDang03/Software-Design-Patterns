@@ -13,7 +13,7 @@
   - The pattern is useful when exactly one object is needed to coordinate actions across a system.
   - Allows class to ensure only one instance, have easy global access to the instance, and control instantiation like hiding a constructor.
   - Saves memory and resources due to only having one instance of the class.
-  - The Singleton class is only created when it is needed thus reducing resource usage.
+  - The Singleton class is only created when it is needed thus delays resource usage until necessary.
 - Cons
   -  Due to the global point access nature of the Singleton class, other classes can become too dependent on the Singleton thus making the system harder to refactor and scale.
   -  Violates the Single Responsibility Principle (SRP) becasue the Singleton controls both the instance creation and its functions/behaviors.
