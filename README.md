@@ -14,7 +14,35 @@
 - How to Implement
     - Implementations of the singleton pattern ensure that only one instance of the singleton class ever exists and typically provide global access to that instance.
     - Declaring all constructors of the class to be private, which prevents it from being instantiated by other objects
-    - Providing a static method that returns a reference to the instance 
+    - Providing a static method that returns a reference to the instance
+    - The instance is usually stored as a private static variable; the instance is created when the variable is initialized, at some point before when the static method is first called.
+    <details>
+      <summary>Code</summary>
+        <details>
+          <summary>main.cpp</summary>
+          
+          ```
+          #include <iostream>
+          #include "singleton.hpp"
+          
+          int main()
+          {
+              Singleton& singleton = Singleton::Get();
+              
+              std::cout << "Value = " << singleton.GetValue() << "\n";
+              
+              singleton.SetValue(42);
+              std::cout << "Value = " << singleton.GetValue() << "\n";
+          
+              Singleton::Destruct();
+              
+              return 0;
+          }
+          ```
+  
+        </details>
+    </details>
+    
 - Work Cited
   1. https://en.wikipedia.org/wiki/Singleton_pattern  
 </details>
