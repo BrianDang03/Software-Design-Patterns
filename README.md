@@ -6,7 +6,9 @@
   - Definition
     - A software design pattern that restricts the instantiation of a class to a singular instance. [[i]](https://en.wikipedia.org/wiki/Singleton_pattern  )
   - How to Implement
-    - Implementations of the singleton pattern ensure that only one instance of the singleton class ever exists and typically provide global access to that instance. [[i]](https://en.wikipedia.org/wiki/Singleton_pattern  ) 
+    - Implementations of the singleton pattern ensure that only one instance of the singleton class ever exists and typically provide global access to that instance. [[i]](https://en.wikipedia.org/wiki/Singleton_pattern  )
+    - Declaring all constructors of the class to be private, which prevents it from being instantiated by other objects
+    - Providing a static method that returns a reference to the instance 
   - Uses Cases
     -  Logging is a common real-world use case for singletons, because all objects that wish to log messages require a uniform point of access and conceptually write to a single source. [[i]](https://en.wikipedia.org/wiki/Singleton_pattern  )
 - Pros
