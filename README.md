@@ -3,7 +3,6 @@
 <details>
   <summary>Singleton</summary>
   
-  ![](https://github.com/user-attachments/assets/d0f1d9b5-5a90-4f51-a326-e7c1dedb30ba | width=100)
 - Definition
   - A software design pattern that restricts the instantiation of a class to a singular instance.
 - Uses Cases
