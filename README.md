@@ -30,3 +30,9 @@
   2. ChatGPT
  
 </details>
+
+<details>
+  <summary>Observer</summary>
+
+  
+</details>
